@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assets/voo-de-aviao.png" alt=""/>
+                    <h1>TravelBloom</h1>
+                </div>
+                <div class="nav-links">
+                    <a href="#Home" onclick="navigate('/')">Home</a>
+                    <a href="#about" onclick="navigate('/about')">About Us</a>
+                    <a href="#contact" onclick="navigate('/contact')">Contact Us</a> 
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Enter a destination or keyword"/>
+                    <button id="search">Search</button>
+                    <button id="clear">Clear</button>
+                </div>
+                         
+            </nav>
+            
+    </header>
+    <main>
+        <section class="social-media">
+            <img src="./assets/icons8-instagram-50.png" alt="">
+            <img src="./assets/twitter_220375.png" alt="">
+            <img src="./assets/youtube_167650.png" alt="">
+        </section>
+        <div class="content">
+            <div class="main-content">
+                <section class="Home" id="Home">
+                      <h2>
+                        Explore Dream Destination
+                      </h2>
+                    <p>Discover your next adventure with our personalized travel recommendations. Whether you're looking for a relaxing beach getaway, a cultural city tour, or an adventurous mountain trek, we've got you covered. Explore top destinations, hidden gems, and exclusive deals tailored to your preferences.
+                    </p>
+                    <button>Book Now</button>
+                </section>
+                <section id="recommendations">
+                    
+                 <ul class="recommendations" id="recommendation-list">
+                       
+
+                    </ul>
+                </section>
+            </div>
+         
+        <section class="about-us" id="about">
+            <h2>About Us</h2>
+            <p>At TravelBloom, we are passionate about helping you discover the world. Our team of travel experts curates personalized recommendations based on your interests, budget, and travel style. With a focus on unique experiences and sustainable tourism, we aim to make your travel dreams a reality.</p>
+        </section>
+        
+        <section class="contact" id="contact">
+            <div>
+                <h2>Contact Us</h2>
+            </div>
+          
+            
+             <div>
+                 <form action="">
+                        <label for="">Name</label>
+                        <input type="text" placeholder="Your Name" required/>
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Your Email" required/>
+                        <label for="">Message</label>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                 </form>
+             </div>
+          
+            
+        </section>
+        
+        </div>
+        
+    </main>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

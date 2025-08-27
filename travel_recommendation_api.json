@@ -1,0 +1,13 @@
+{
+  "beaches": [
+    { "name": "Copacabana Beach", "imageUrl": "./assets/copacabana.jpg", "description": "Famous beach in Brazil." },
+    { "name": "Bondi Beach", "imageUrl": "./assets/bondi-beach.jpg", "description": "Popular beach in Australia." }
+  ],
+  "temples": [
+    { "name": "Angkor Wat", "imageUrl": "./assets/angkorwat.jpg", "description": "Historic temple in Cambodia." }
+  ],
+  "countries": [
+    { "name": "Brazil", "imageUrl": "./assets/brazil.jpg", "description": "Country of beaches and carnival." },
+    { "name": "India", "imageUrl": "./assets/India.jpg", "description": "Land of temples and culture." }
+  ]
+}
